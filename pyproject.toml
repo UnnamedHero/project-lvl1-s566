@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "UnnamedHero_brain_games"
-version = "0.1.0"
+version = "0.2.0"
 description = "Hexlet.io python project #1"
 authors = ["UnnamedHero"]
 packages = [
@@ -9,6 +9,7 @@ packages = [
 
 [tool.poetry.dependencies]
 python = "^3.5"
+prompt = "^0.4.1"
 
 [tool.poetry.dev-dependencies]
 
