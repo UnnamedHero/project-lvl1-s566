@@ -1,7 +1,14 @@
-package = []
+[[package]]
+category = "main"
+description = "Library for prompting input on the command line."
+name = "prompt"
+optional = false
+python-versions = ">=3.3"
+version = "0.4.1"
 
 [metadata]
-content-hash = "8165d934e932435bf4742b9198674202413b43524911713d5c7c55cb8d314618"
+content-hash = "ad872deb2565ab4cf803ff289c56db787482f22f84c5cdd2e238338cc0bb93f1"
 python-versions = "^3.5"
 
 [metadata.hashes]
+prompt = ["8a7694b88f8c65188a983315e72582bf42fcc251b97042be1d2a2ad1aa0ebe0e", "98527de8dc3f0aa29669a39fbffeaf578ba6654dc836f737b6a5c6f9279002b7"]
