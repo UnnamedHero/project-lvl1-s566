@@ -4,3 +4,4 @@ python:
 script: make lint
 before_install:
   - pip install poetry
+  - make install
