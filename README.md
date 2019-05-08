@@ -31,5 +31,7 @@ Step 7:
 
 ```asciinema play https://raw.githubusercontent.com/UnnamedHero/project-lvl1-s566/master/asciinemas/step7.cast```
 
+Step 8:
 
+```asciinema play https://raw.githubusercontent.com/UnnamedHero/project-lvl1-s566/master/asciinemas/step8.cast```
 
