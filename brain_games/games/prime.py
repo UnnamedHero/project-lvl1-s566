@@ -11,7 +11,7 @@ def is_prime(num):
     current_divider = 2
 
     while current_divider <= max_divider:
-        if num % current_divider == 0:
+        if not num % current_divider:
             return False
         current_divider += 1
 
