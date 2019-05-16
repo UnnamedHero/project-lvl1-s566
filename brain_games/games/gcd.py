@@ -5,13 +5,12 @@ DESCRIPTION = 'Find the greatest common divisor of given numbers.'
 MAX_NUMBER = 100
 
 
-def calculate_gcd(num1, num2):
-    (a, b) = (num1, num2) if num1 >= num2 else (num2, num1)
-    expected = a % b
+def calculate_gcd(num1, num2):    
+    expected = num1 % num2
     if expected == 0:
-        return b
+        return num2
     else:
-        return calculate_gcd(b, expected)
+        return calculate_gcd(num2, expected)
 
 
 def get_question_data():
