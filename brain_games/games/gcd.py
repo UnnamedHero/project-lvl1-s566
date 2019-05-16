@@ -5,7 +5,7 @@ DESCRIPTION = 'Find the greatest common divisor of given numbers.'
 MAX_NUMBER = 100
 
 
-def calculate_gcd(num1, num2):    
+def calculate_gcd(num1, num2):
     expected = num1 % num2
     if expected == 0:
         return num2
