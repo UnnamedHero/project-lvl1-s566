@@ -1,6 +1,12 @@
+#!/usr/bin/env python
+
 from brain_games.cli import run
 from brain_games.games import calc
 
 
-def brain_calc():
+def main():
     run(calc)
+
+
+if __name__ == '__main__':
+    main()
